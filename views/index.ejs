@@ -4,15 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title><%= title %></title>
+    <title><%= title %>COMP308 Assignment 1</title>
+    <script src="app.js"></script>
     <!-- CSS Section-->
     <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="Content/app.css" />
   </head>
   <body>
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="/">COMP308</a>
+        <div class="logo"> <a href ="/"><img src="Assets/images/Portfolio_logo.PNG" height="40px" width="60px"> </a></div>
       <button
         class="navbar-toggler"
         type="button"
@@ -34,8 +36,7 @@
 
             <a class="nav-link" href="/"
               ><i class="fa fa-lg fa-h-square"></i> Home
-              <span class="sr-only">(current)</span></a
-            >
+              <span class="sr-only">(current)</span></a>
           </li>
 
           <% if(title == "About") { %>
@@ -48,13 +49,13 @@
             >
           </li>
 
-          <% if(title == "Products") { %>
+          <% if(title == "Projects") { %>
           <li class="nav-item active"><% } else { %></li>
           <li class="nav-item">
             <% } %>
 
-            <a class="nav-link" href="/products"
-              ><i class="fa fa-lg fa-archive"></i> Products</a
+            <a class="nav-link" href="/projects"
+              ><i class="fa fa-lg fa-archive"></i> Projects</a
             >
           </li>
 
@@ -83,22 +84,24 @@
 
     <div class="container">
       <div class="jumbotron">
-        <h1 class="display-4">Welcome to <%= title %></h1>
+        <h1 class="display-4">Welcome to my <%= title %> page</h1>
         <p class="lead">
-          This is a simple hero unit, a simple jumbotron-style component for
-          calling extra attention to featured content or information.
+            Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself 
+            <br>Rumi
         </p>
         <hr class="my-4" />
         <p>
-          It uses utility classes for typography and spacing to space content
-          out within the larger container.
         </p>
         <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button"
-            >Learn more</a
-          >
+          <a class="btn btn-primary btn-lg" href="About" role="button"
+            >About me page</a>
         </p>
       </div>
+    </div>
+    <div class="footer">
+        <h6>&copy; Abdulghafor Nurali COMP308 Assignment 1</h6>
+        <div class="githubLink">
+          <a href="https://github.com/Abdul025"> <i class="fa fa-2lg fa-github fa-2x"></i></a>
     </div>
 
     <!-- JavaScript Section -->
