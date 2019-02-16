@@ -1,15 +1,14 @@
 {
-  "name": "comp-308-w3-lesson3b",
+  "name": "abdulghafor_assignment1_express_portfolio",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node server.js"
   },
-  "engine":{
-    "node" : "^10.15.0",
-    "npm" : "^6.0.0"
+  "engine": {
+    "node": "^10.15.0",
+    "npm": "^6.0.0"
   },
-
   "dependencies": {
     "bootstrap": "^4.2.1",
     "cookie-parser": "~1.4.3",
@@ -19,11 +18,23 @@
     "font-awesome": "^4.7.0",
     "http-errors": "~1.6.2",
     "jquery": "^3.3.1",
+    "mongoose": "^5.4.13",
     "morgan": "~1.9.0",
     "popper.js": "^1.14.6"
   },
-  "description": "Express Generator Demo",
+  "description": "Assignment 1 Express Portfolio",
   "main": "server.js",
   "author": "Abdulghafor Nurali",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mongoose": "^5.3.17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdul025/COMP308-004-Assignment1-Express-Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abdul025/COMP308-004-Assignment1-Express-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Abdul025/COMP308-004-Assignment1-Express-Portfolio#readme"
 }
