@@ -1,0 +1,65 @@
+<% include ./partials/header %>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome to my Contact page</h1>
+        <p class="myContact">
+             <h1>Please fill out the below form and share with me your feedback</h1>
+            <form action="" class="form" method="post">
+                <div class="form-group">
+                    <label for="FirtNameTextField">First Name</label>
+                    <input type="text" class="form-control" id="FirstNameTextField" placeholder="Enter First Name"
+                    name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="LastNameTextField">Last Name</label>
+                    <input type="text" class="form-control" id="LastNameTextField" placeholder="Enter Last Name"
+                    name="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="EmailTextField">Your Email</label>
+                    <input type="text" class="form-control" id="EmailTextField" placeholder="Enter Your Email"
+                    name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="MessageTextField">Message</label>
+                    <textarea class="form-control" id="MessageTextField" rows="5" placeholder="Type Your Message "
+                    name="message" required></textarea>
+                
+                </div>
+                <a href="/">
+                <button type="submit" class="btn btn-primary"> </a>
+                <i class="fa fa-envelope-open-o"></i>Submit</button>
+            </form>
+<br>
+<br>
+             
+  <div class="contactMe">
+
+    <fieldset>
+    <legend>Contact Details:</legend>
+     <p>3105 Wilson Avenue, Suite: 401
+          <br>Toronto , ON M9N 1K7
+          <br>Business Number: 416-325-0012
+          <br>
+          Cell Phone: 416-897-6456
+          <br>
+        Email: 
+          <a href="mailto:name@example.com">ghafor_n@live.com
+          </a>
+          <br>
+          Hours of operation: Monday-Friday: 10:00 AM to 6:00 PM
+        </p>
+  </fieldset>
+     </div>
+        
+      </div>
+    </div>
+            
+        </div>
+    </div>
+   <footer>
+<br>
+    <% include ./partials/footer %>
+</footer>
+  </body>
+</html>
