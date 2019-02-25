@@ -13,3 +13,16 @@
     padding-left: 20px;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .plant{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
